@@ -1,0 +1,355 @@
+ @media (max-width: 900px) {
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .navbar nav ul {
+        gap: 12px;
+    }
+
+    .navbar nav ul li a {
+        font-size: 12px;
+    }
+
+    .hero-content {
+        max-width: 600px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .deatils-section {
+        padding: 60px 7%;
+    }
+
+    .deatils-container {
+        gap: 30px;
+    }
+
+    .deatils-image img {
+        height: 400px;
+    }
+
+    .location-section {
+        padding: 60px 7%;
+    }
+
+    .location-container {
+        gap: 30px;
+    }
+
+    .location-image {
+        height: 400px;
+    }
+
+    .offers-items {
+        gap: 20px;
+    }
+
+    .offer-items .img-item {
+        height: 200px;
+    }
+
+    .gallery-section {
+        height: auto;
+    }
+
+    .gallery-container {
+        grid-template-rows: repeat(3, 150px);
+        gap: 15px;
+    }
+
+    .contact-container {
+        padding: 0 30px;
+    }
+
+    .contact-map img {
+        height: 350px;
+    }
+
+    .overview-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+    position: relative;
+    flex-direction: column;
+    padding: 15px 10px;
+    gap: 12px;
+}
+
+.name-website {
+    font-size: 18px;
+}
+
+.navbar nav {
+    width: 100%;
+}
+
+.navbar nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+}
+
+.navbar nav ul li a {
+    font-size: 12px;
+}
+    .hero {
+        height: 80vh;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 27px;
+        letter-spacing: 1px;
+    }
+
+    .hero-content p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 150px;
+        text-align: center;
+    }
+
+    .deatils-section {
+        padding: 50px 6%;
+    }
+
+    .deatils-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .deatils-image {
+        width: 100%;
+    }
+
+    .deatils-image img {
+        width: 100%;
+        max-width: 350px;
+        height: 350px;
+    }
+
+    .deatils-content {
+        width: 100%;
+    }
+
+    .deatils-content h2 {
+        font-size: 28px;
+    }
+
+    .deatils-list {
+        text-align: left;
+    }
+
+    .location-section {
+        padding: 50px 6%;
+    }
+
+    .location-container {
+        flex-direction: column;
+    }
+
+    .location-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .location-content h2 {
+        font-size: 28px;
+    }
+
+    .location-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .offers-section {
+        padding: 50px 0;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .offers-items {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .offer-items {
+        width: 100%;
+    }
+
+    .offer-items .img-item {
+        height: 230px;
+    }
+
+    .gallery-section {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .gallery-title {
+        margin-bottom: 25px;
+    }
+
+    .gallery-title h2 {
+        font-size: 24px;
+    }
+
+    .gallery-title p {
+        font-size: 13px;
+    }
+
+    .gallery-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 200px);
+        grid-template-areas:
+            "bread"
+            "cake"
+            "cookie"
+            "croissant"
+            "cupcake"
+            "donuts";
+        gap: 15px;
+    }
+
+    .gallery-item h3 {
+        visibility: visible;
+        font-size: 14px;
+    }
+
+    .contact-section {
+        padding: 50px 0;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        padding: 0 6%;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .contact-info h2 {
+        font-size: 28px;
+    }
+
+    .contact-map {
+        width: 100%;
+    }
+
+    .contact-map img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .overview-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+   .overview-col h3 {
+        font-size: 18px;
+    }
+
+    .footer {
+        padding: 35px 0;
+    }
+
+    .footer .footer-logo h2 {
+        font-size: 2rem;
+    }
+
+}
+@media (max-width: 600px) {
+
+    .reviews-section,
+    .bakers-section {
+        padding: 60px 0;
+    }
+
+    .reviews-title h2,
+    .bakers-title h2 {
+        font-size: 27px;
+    }
+
+    .reviews-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .review {
+        padding: 25px 20px;
+    }
+
+    .bakers-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .baker {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .baker img {
+        height: 300px;
+    }
+      .reviews-section,
+    .bakers-section {
+        padding: 60px 0;
+    }
+
+    .reviews-title h2,
+    .bakers-title h2 {
+        font-size: 27px;
+    }
+
+    .reviews-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .review {
+        padding: 25px 20px;
+    }
+
+    .bakers-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .baker {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .baker img {
+        height: 300px;
+    }
+}
