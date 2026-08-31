@@ -1,0 +1,22 @@
+@media only screen and (max-width: 992px) {
+  .baking-card {
+    flex: 0 0 calc(50% - 10px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .baking-section-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .baking-card {
+    flex: 0 0 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .baking-card {
+    flex: 0 0 100%;
+  }
+}
